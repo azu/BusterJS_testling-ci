@@ -13,11 +13,11 @@
             var taps = [];
             // each passed test
             buster.assertions.on("pass", function (test) {
-                taps.push("ok " + taps.length + 1);
+                taps.push("ok " + (taps.length + 1));
             });
             // each failure test
             buster.assertions.on("failure", function (test) {
-                taps.push("not ok " + taps.length + 1);
+                taps.push("not ok " + (taps.length + 1));
             });
             // finish all test
             buster.testRunner.on("suite:end", function (results) {
