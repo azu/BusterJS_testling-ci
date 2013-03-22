@@ -27,8 +27,11 @@
             });
             // for testling html
             function outputLog() {
-                console.log("'TAP version 13'");
-                console.log(taps.join("\n"));
+                console.log("TAP version 13");
+                for (var i = 0; i < taps.length; i++) {
+                    var tapLog = taps[i];
+                    console.log(tapLog);
+                }
             }
 
         })();
