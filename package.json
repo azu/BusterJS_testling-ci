@@ -1,0 +1,15 @@
+{
+    "name" : "BusterJS_testling-ci",
+    "version" : "0.0.1",
+    "testling" : {
+        "html" : "test.html",
+        "browsers" : [
+            "ie/6..latest",
+            "chrome/20..latest",
+            "firefox/17..latest",
+            "safari/latest",
+            "opera/11.0..latest",
+            "iphone/6"
+        ]
+    }
+}
